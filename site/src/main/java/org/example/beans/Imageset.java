@@ -22,4 +22,9 @@ public class Imageset extends HippoGalleryImageSet {
 	public HippoGalleryImageBean getBanner() {
 		return getBean("gogreen:banner", HippoGalleryImageBean.class);
 	}
+
+	@HippoEssentialsGenerated(internalName = "gogreen:hugeimage")
+	public HippoGalleryImageBean getHugeimage() {
+		return getBean("gogreen:hugeimage", HippoGalleryImageBean.class);
+	}
 }
