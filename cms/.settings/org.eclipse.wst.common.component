@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="gogreen-cms">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="gogreen-bootstrap-configuration-1.01.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gogreen-bootstrap-configuration/gogreen-bootstrap-configuration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gogreen-bootstrap-content-1.01.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gogreen-bootstrap-content/gogreen-bootstrap-content">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="cms"/>
+        <property name="java-output-path" value="/gogreen-cms/target/classes"/>
+    </wb-module>
+</project-modules>
